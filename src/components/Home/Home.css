@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home {
+    font-family: "Montserrat", sans-serif;
+    padding-left: 112px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebe9e8;
+    background-image: url("../../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.home-text {
+    text-align: center;
+    width: 800px;
+}
+
+.home-text h1{
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.home-text p {
+    font-size: 20px;
+}
+
+.description {
+    margin-top: 50px;
+}
+
+.home-text button {
+    background-color: #04c4b7;
+    color: black;
+    font-weight: 600;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: 0.25s ease-in-out;
+}
+
+.home-text button:hover {
+    background-color: white;
+}
+
+.front-end {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+    .home-text h1{
+        font-size: 55px;
+    }
+    .home-text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .home-text {
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home-text button {
+        background-color: #04c4b7;
+        color: black;
+        font-weight: 600;
+        padding: 6px 24px;
+        font-size: 15px;
+        border-radius: 22px;
+        transition: 0.25s ease-in-out;
+    }
+    .home-text h1{
+        font-size: 45px;
+    }
+    .home-text p {
+        font-size: 14px;
+    }
+    .description {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home {
+        padding-left: 0;
+    }
+    .home-text h1{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .home-text p {
+        font-size: 12px;
+    }
+    .home-text {
+        width: 100%;
+        padding: 24px;
+    }
+}

@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: "Lato", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  /* background-color: rgb(255, 255, 255); */
+  background-color: #fdfdfd;
+  color: black;
+  scrollbar-color: black;
+}
+
+.projects-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 40px 0;
+  padding-left: 96px;
+}
+
+.project-heading {
+  padding-left: 96px;
+}
+
+@media screen and (max-width: 700px) {
+  .projects-section, .project-heading {
+    padding-left: 0;
+  }
+}

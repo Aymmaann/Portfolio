@@ -1,0 +1,127 @@
+.project-box {
+    animation: zoomIn 1s;
+}
+
+.project-img-div {
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.531);
+    transform: skewx(-1deg) scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.project-img-div:hover {
+    transform: skewx(-5deg) scale(0.97);
+}
+
+.project-img-inverse-div {
+    box-shadow: -2px 2px rgba(128, 128, 128, 0.531);
+    transform: skewx(1deg) scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.project-img-inverse-div:hover {
+    transform: skewx(5deg) scale(0.97);
+}
+
+.project-img {
+    width: 500px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.project-text-box {
+    width: 500px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.project-btn {
+    transition: 0.25s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-btn i {
+    font-size: 30px;
+}
+
+.project-btn:hover {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .project-box {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .project-box {
+        gap: 10px;
+        background-color: black;
+        margin: 0 130px 0 140px;
+        border-radius: 20px;
+        padding: 20px 20px 50px;
+        gap: 0;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+    .project-text-box {
+        box-shadow: none;
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width: 950px) {
+    .project-box {
+        gap: 10px;
+        background-color: black;
+        margin: 0 80px 0 90px;
+        border-radius: 20px;
+        padding: 20px 20px 50px;
+        gap: 0;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .project-img-div, .project-img-inverse-div {
+        width: 90%;
+    }
+    .project-img {
+        width: 100%;
+    }
+    .project-box {
+        padding: 15px 15px 25px;
+    }
+    .project-text-box {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .project-box {
+        margin: 0 24px;
+    }
+    .project-btn i {
+        font-size: 24px;
+    }
+    .project-img-div , .project-img-inverse-div{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project-box {
+        margin: 0 24px;
+        /* width: 100%; */
+    }
+}
