@@ -65,19 +65,21 @@ nav {
     background-color: black;
     padding: 15px;
     justify-content: center;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     border-radius: 12px;
     position: absolute;
-    top: 45px;
+    top: 55px;
     right: 15px;
-    width: 120px;
+    width: 130px;
     border: 1px solid white;
     text-align: center;
 }
 
 .hamburger-ul .link {
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 @media screen and (max-width:1150px) {
