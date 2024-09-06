@@ -13,19 +13,58 @@ import design12 from "../../assets/design12.png"
 import design13 from "../../assets/design13.png"
 
 const designs = {
-    design1, 
-    design2,
-    design3,
-    design4,
-    design5,
-    design6,
-    design7,
-    design8,
-    design9,
-    design10,
-    design11,
-    design12,
-    design13
+    first: {
+        img: design1,
+        link: "https://hubble-landing-page-fe-mentor.netlify.app/"
+    },
+    second: {
+        img: design2,
+        link: "https://fe-easybank-landing-page.netlify.app/"
+    },
+    third: {
+        img: design3,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    },
+    fourth: {
+        img: design4,
+        link: "https://nft-preview-fe.netlify.app/"
+    },
+    fifth: {
+        img: design5,
+        link: "https://music-plan-component.netlify.app/"
+    },
+    sixth: {
+        img: design6,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    },
+    seventh: {
+        img: design7,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    },
+    eighth: {
+        img: design8,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    },
+    ninth: {
+        img: design9,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    },
+    tenth: {
+        img: design10,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    },
+    eleventh: {
+        img: design11,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    },
+    twelfth: {
+        img: design12,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    },
+    thirteenth: {
+        img: design13,
+        link: "https://fe-interactive-pricing-component.netlify.app/"
+    }
 }
 
 export default designs;
