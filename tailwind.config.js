@@ -17,6 +17,7 @@ export default {
         'xl': '1000px',
         'l': '850px',
         'sl': '700px',
+        'xxs': '375px',
       }
     },
   },

@@ -14,7 +14,7 @@ const Project = (props) => {
                     <p className="mt-5 text-sm xl:text-base">{info[projectKey].description}</p>
                     
                     <a href={info[projectKey].githubLink} target="_blank">
-                        <button className="project-btn bg-white text-black px-2 py-2 rounded-3xl font-bold mt-6">
+                        <button className="project-btn bg-white text-black px-1 py-1 sl:px-2 sl:py-2 rounded-3xl font-bold mt-6">
                             <i className ="fa-brands fa-github"></i>
                         </button>
                     </a>

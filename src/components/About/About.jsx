@@ -57,7 +57,7 @@ const About = () => {
                                 <div className="education-section">
                                     <h2>2022 - 2026</h2>
                                     <p>Btech CSE Cloud Computing Student at SRM University.</p>
-                                    <p>Current CGPA: 9.48</p>
+                                    <p>Current CGPA: 9.5</p>
                                     <h2 className="skills-other-headings">2020 - 2022</h2>
                                     <p>Sanjos Metropolitan School(CBSE)</p>
                                     <p>12th Percentage: 92%</p>

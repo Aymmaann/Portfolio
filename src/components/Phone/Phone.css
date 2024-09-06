@@ -1,5 +1,5 @@
 .design-section {
-    padding: 0px 0 100px 112px;
+    padding: 0px 0 100px 108px;
 }
 
 .phone-scroller {
@@ -203,6 +203,22 @@
         }
         100% {
             transform: translateX(calc(-135px * 15 + 30px * 14)); 
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .phone-scroller-ul {
+        gap: 20px;
+        min-width: calc(135 * 13 + 30px * 12);
+        animation: scroll 14s linear infinite;
+    }
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-135px * 16 + 30px * 14)); 
         }
     }
 }

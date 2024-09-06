@@ -83,6 +83,9 @@
 .skills-section , .education-section {
     margin-top: 25px;
     font-weight: 500;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 18px;
 }
 
 .skills-section h2, .education-section h2 {
