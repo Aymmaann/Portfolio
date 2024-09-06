@@ -35,35 +35,35 @@ const designs = {
     },
     sixth: {
         img: design6,
-        link: "https://fe-interactive-pricing-component.netlify.app/"
+        link: "https://result-summary-fe-mentor.netlify.app/"
     },
     seventh: {
         img: design7,
-        link: "https://fe-interactive-pricing-component.netlify.app/"
+        link: "https://room-homepage-design-fe.netlify.app/"
     },
     eighth: {
         img: design8,
-        link: "https://fe-interactive-pricing-component.netlify.app/"
+        link: "https://social-links-fe-mentor.netlify.app/"
     },
     ninth: {
         img: design9,
-        link: "https://fe-interactive-pricing-component.netlify.app/"
+        link: "https://fe-social-media-dashboard.netlify.app/"
     },
     tenth: {
         img: design10,
-        link: "https://fe-interactive-pricing-component.netlify.app/"
+        link: "https://tip-calculator-fe.netlify.app/"
     },
     eleventh: {
         img: design11,
-        link: "https://fe-interactive-pricing-component.netlify.app/"
+        link: "https://social-proof-fe-mentor.netlify.app/"
     },
     twelfth: {
         img: design12,
-        link: "https://fe-interactive-pricing-component.netlify.app/"
+        link: "https://pricing-component-fe.netlify.app/"
     },
     thirteenth: {
         img: design13,
-        link: "https://fe-interactive-pricing-component.netlify.app/"
+        link: "https://fe-blogr-landing-page.netlify.app/"
     }
 }
 

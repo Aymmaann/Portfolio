@@ -13,7 +13,9 @@ const Phone = () => {
                             <li className="one-design" key={index}>
                                 <div className="phone-bezel">
                                     <div className="dynamic-island"></div>
-                                    <img src={design} alt={`design-${index}`} className="phone-screen xl:w-[175px]"/>
+                                    <a href={design.link} target="_blank">
+                                        <img src={design.img} alt={`design-${index}`} className="phone-screen xl:w-[175px]"/>
+                                    </a>
                                 </div>
                             </li>
                         ))}
