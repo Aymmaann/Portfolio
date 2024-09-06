@@ -105,13 +105,28 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .home {
         padding-left: 0;
     }
     .home-text h1{
-        font-size: 28px;
+        font-size: 32px;
     }
+    .home-text .description {
+        margin-top: 50px;
+    }
+    .home-text p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .home {
+        padding-left: 0;
+    }
+    /* .home-text h1{
+        font-size: 28px;
+    } */
     .home-text .description {
         margin-top: 50px;
     }

@@ -56,6 +56,30 @@ nav {
     display: none;
 }
 
+.hamburger-icon i {
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.hamburger-ul {
+    background-color: black;
+    padding: 15px;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 12px;
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    width: 120px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.hamburger-ul .link {
+    font-size: 13px;
+    font-weight: 400;
+}
+
 @media screen and (max-width:1150px) {
     .link {
         font-size: 16px;
@@ -79,9 +103,9 @@ nav {
         background-color: black;
         display: flex;
         justify-content: flex-end;
-        padding: 10px 20px;
+        padding: 15px 20px;
         width: 100vw;
-        height: 35px;
+        height: 55px;
     }
     .logo {
         top: 50%;

@@ -75,25 +75,6 @@ form {
     color: #04c4b7;
 }
 
-.hamburger-ul {
-    background-color: black;
-    padding: 15px;
-    justify-content: center;
-    gap: 20px;
-    border-radius: 12px;
-    position: absolute;
-    top: 30px;
-    right: 15px;
-    width: 120px;
-    border: 1px solid white;
-    text-align: center;
-}
-
-.hamburger-ul .link {
-    font-size: 13px;
-    font-weight: 400;
-}
-
 @media screen and (max-width: 1300px) {
     .contact-text-section {
         width: 400px;

@@ -1,5 +1,4 @@
 .about-section {
-    /* margin-top: 80px; */
     padding: 0 0 40px 112px;
 }
 
@@ -188,10 +187,10 @@
         justify-content: center;
     } 
     .skills-section h2, .education-section h2, .about-list li {
-        font-size: 14px;
+        font-size: 16px;
     } 
     .about-description, .skills-section p, .education-section p  {
-        font-size: 12px;
+        font-size: 14px;
     }
     .tech-stack-img {
         width: 50px;

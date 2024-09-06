@@ -1,6 +1,4 @@
 import React from "react";
-import cube from "../../assets/cube.png"
-import pyramid from "../../assets/pyramid.png"
 import "./Home.css"
 
 const Home = () => {

@@ -18,7 +18,7 @@ const App = () => {
       <About />
       <Phone />
 
-      <h1 className='project-heading text-purple uppercase text-[28px] sl:text-[37px] font-bold text-center pt-10 l:pt-14 xxl:text-[55px] xl:text-[45px]' id="Projects">Projects</h1>
+      <h1 className='project-heading text-purple uppercase text-[28px] sl:text-[37px] font-bold text-center pt-12 l:pt-14 xxl:text-[55px] xl:text-[45px]' id="Projects">Projects</h1>
       <section className="projects-section">
         <Project number={1}/>
         <ProjectInverse number={2}/>
