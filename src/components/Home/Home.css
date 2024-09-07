@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .home {
+    background-image: url("../../assets/background.jpg");
     font-family: "Montserrat", sans-serif;
     padding-left: 112px;
     position: relative;
@@ -9,7 +10,6 @@
     justify-content: center;
     align-items: center;
     background-color: #ebe9e8;
-    background-image: url("../../assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
