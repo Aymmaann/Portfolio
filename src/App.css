@@ -32,5 +32,6 @@ body {
   .projects-section, .project-heading {
     padding-left: 0;
     padding-top: 30px;
+    gap: 40px;
   }
 }
