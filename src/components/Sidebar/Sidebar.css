@@ -28,19 +28,20 @@ nav {
     color: #1e1e1e;
 }
 
-
+/* .link-container {
+    padding: 0 22px;
+} */
 .link {
     color: white;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     transition: 0.3s ease-in-out;
-    padding: 6px 16px;
+    padding: 6px 22px;
     border-radius: 12px;
 }
 
 .link:hover {
-    background-color: white;
-    color: #1e1e1e;
+    color: #04c4b7;
 }
 
 

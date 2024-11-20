@@ -6,8 +6,12 @@
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 80px;
+}
+
+.about-img {
+    align-items: flex-start;
+    margin-top: 30px;
 }
 
 .about-img img {
@@ -103,7 +107,7 @@
 }
 
 .tech-stack {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 20px;
