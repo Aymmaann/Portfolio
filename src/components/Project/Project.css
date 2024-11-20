@@ -45,8 +45,7 @@
 }
 
 .project-btn:hover {
-    background-color: #4d4d4d;
-    color: white;
+    background-color: #04c4b7;
 }
 
 @keyframes zoomIn {
