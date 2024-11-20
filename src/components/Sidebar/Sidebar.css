@@ -36,7 +36,7 @@ nav {
     font-weight: 600;
     font-size: 16px;
     transition: 0.3s ease-in-out;
-    padding: 6px 22px;
+    padding: 6px 12px;
     border-radius: 12px;
 }
 
@@ -73,7 +73,7 @@ nav {
     position: absolute;
     top: 55px;
     right: 15px;
-    width: 130px;
+    /* width: 130px; */
     border: 1px solid white;
     text-align: center;
 }

@@ -101,7 +101,7 @@
     }
     .home-text {
         width: 100%;
-        padding: 24px;
+        padding: 36px;
     }
 }
 
@@ -117,6 +117,13 @@
     }
     .home-text p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .home-text {
+        width: 100%;
+        padding: 28px;
     }
 }
 

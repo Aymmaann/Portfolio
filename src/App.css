@@ -31,5 +31,6 @@ body {
 @media screen and (max-width: 700px) {
   .projects-section, .project-heading {
     padding-left: 0;
+    padding-top: 30px;
   }
 }

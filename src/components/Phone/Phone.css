@@ -153,10 +153,10 @@
 
 @media screen and (max-width: 700px) {
     .design-section {
-        padding: 30px 0;
+        padding: 0px 0;
     }
     .phone-scroller {
-        margin-top: 20px;
+        margin-top: 25px;
     }
 }
 
