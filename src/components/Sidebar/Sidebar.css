@@ -24,13 +24,10 @@ nav {
 
 .sidebar-ul li {
     width: 100%;
+    padding: 0 9px;
     text-align: center;
     color: #1e1e1e;
 }
-
-/* .link-container {
-    padding: 0 22px;
-} */
 .link {
     color: white;
     font-weight: 600;
@@ -92,6 +89,9 @@ nav {
 @media screen and (max-width: 1000px) {
     .sidebar-ul {
         gap: 20px;
+    }
+    .sidebar-ul li {
+        padding: 0 13px;
     }
     .link {
         font-size: 14px;
