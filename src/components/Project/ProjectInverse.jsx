@@ -17,7 +17,7 @@ const ProjectInverse = (props) => {
                 
 
                 <div className="project-text-box p-3 l:p-6 bg-black rounded-xl text-lightPink">
-                    <h1 className="text-xl sl:text-2xl xl:text-3xl font-bold text-white">{info[projectKey].heading}</h1>
+                    <h1 className="text-xl sl:text-2xl font-bold text-white">{info[projectKey].heading}</h1>
                     <p className="mt-5 text-sm xl:text-base">{info[projectKey].description}</p>
                     <a href={info[projectKey].githubLink} target="_blank">
                         <button className="project-btn bg-white text-black px-1 py-1 sl:px-2 sl:py-2 rounded-3xl font-bold mt-6">

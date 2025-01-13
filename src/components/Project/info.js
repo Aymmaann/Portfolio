@@ -1,10 +1,17 @@
-// import project1img from "../../assets/project1.png"
+import project1img from "../../assets/project1.png"
 // import project2img from "../../assets/project2.png"
 import project3img from "../../assets/project3.png"
 import project4img from "../../assets/project4.png"
 import project5img from "../../assets/project5.png"
 
 const info = {
+    project1: {
+        img: project1img,
+        link: "https://dashify-r.netlify.app/",
+        githubLink: "https://github.com/Aymmaann/Dashify",
+        heading: "Dashify",
+        description: "Dashify is a modern personal dashboard UI built with React and Tailwind CSS. It provides a responsive, user-friendly interface for managing personal data and settings. The project highlights the use of reusable components and Tailwind’s utility-first approach to create a sleek, scalable, and dynamic front-end experience."
+    },
     project3: {
         img: project3img,
         link: "https://gemini-fe.netlify.app",

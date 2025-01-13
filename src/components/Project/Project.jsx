@@ -10,7 +10,7 @@ const Project = (props) => {
         <>
             <div className="project-box flex flex-col justify-center items-center gap-0 xxxl:gap-20 xxl:flex-row xxl:gap-6">
                 <div className="project-text-box p-3 l:p-6 bg-black rounded-xl text-lightPink">
-                    <h1 className="text-xl sl:text-2xl xl:text-3xl font-bold text-white">{info[projectKey].heading}</h1>
+                    <h1 className="text-xl sl:text-2xl font-bold text-white">{info[projectKey].heading}</h1>
                     <p className="mt-5 text-sm xl:text-base">{info[projectKey].description}</p>
                     
                     <a href={info[projectKey].githubLink} target="_blank">
