@@ -1,5 +1,5 @@
 import project1img from "../../assets/project1.png"
-// import project2img from "../../assets/project2.png"
+import project2img from "../../assets/project2.png"
 import project3img from "../../assets/project3.png"
 import project4img from "../../assets/project4.png"
 import project5img from "../../assets/project5.png"
@@ -11,6 +11,13 @@ const info = {
         githubLink: "https://github.com/Aymmaann/Dashify",
         heading: "Dashify",
         description: "Dashify is a modern personal dashboard UI built with React and Tailwind CSS. It provides a responsive, user-friendly interface for managing personal data and settings. The project highlights the use of reusable components and Tailwind’s utility-first approach to create a sleek, scalable, and dynamic front-end experience."
+    },
+    project2: {
+        img: project2img,
+        link: "",
+        githubLink: "https://github.com/Aymmaann/Belezza",
+        heading: "Belezza",
+        description: "Belezza is a sleek e-commerce website built with React and Tailwind CSS, offering a user-friendly and responsive interface. It includes essential features such as product listing, filtering, shopping cart functionality, related product suggestions, and order tracking (pending backend). The project emphasizes a smooth, intuitive shopping experience."
     },
     project3: {
         img: project3img,
