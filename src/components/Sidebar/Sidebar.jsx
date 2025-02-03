@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import "./Sidebar.css"
 import Logo from "../../assets/logo-cropped.png"
 import '@fortawesome/fontawesome-free/css/all.min.css'
@@ -36,7 +37,8 @@ const Sidebar = () => {
                 </ul>
 
                 <div className="hamburger-icon" onClick={enableNav}>
-                    <i className="fa-solid fa-bars"></i>
+                    {/* <i className="fa-solid fa-bars"></i> */}
+                    <HiMiniBars3BottomRight className="text-[20px]" />
                 </div>
 
                 {showNav && (

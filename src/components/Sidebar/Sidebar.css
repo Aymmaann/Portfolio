@@ -24,13 +24,13 @@ nav {
 
 .sidebar-ul li {
     width: 100%;
-    padding: 0 9px;
+    padding: 0 13px;
     text-align: center;
     color: #1e1e1e;
 }
 .link {
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     transition: 0.3s ease-in-out;
     padding: 6px 12px;
@@ -55,7 +55,6 @@ nav {
 }
 
 .hamburger-icon i {
-    font-size: 20px;
     margin-top: 3px;
 }
 
@@ -68,16 +67,15 @@ nav {
     gap: 15px;
     border-radius: 12px;
     position: absolute;
-    top: 55px;
+    top: 60px;
     right: 15px;
-    /* width: 130px; */
-    border: 1px solid white;
+    border: 1px solid gray;
     text-align: center;
 }
 
 .hamburger-ul .link {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 @media screen and (max-width:1150px) {

@@ -2,7 +2,6 @@
 
 .home {
     background-image: url("../../assets/background.jpg");
-    font-family: "Montserrat", sans-serif;
     padding-left: 112px;
     position: relative;
     height: 100vh;
@@ -19,11 +18,12 @@
 .home-text {
     text-align: center;
     width: 800px;
+    font-weight: 300;
 }
 
 .home-text h1{
     font-size: 75px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .home-text p {
